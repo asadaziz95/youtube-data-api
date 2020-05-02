@@ -34,6 +34,7 @@ class VideoDetail extends Component {
     }
 
     const videoId = video.id.videoId;
+    console.log(videoId);
     const url = `https://www.youtube.com/embed/${videoId}`;
 
     return (
